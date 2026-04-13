@@ -49,7 +49,13 @@ Created **Fast Track** segment:
 
 ### 3. Handling Class Imbalance
 - Used `class_weight='balanced'` in Logistic Regression  
-- Focused on improving recall instead of accuracy  
+- Focused on improving recall instead of accuracy
+- Confusion Matrix:
+
+  Format : [[TN  FP]
+           [FN  TP]]
+  
+  <img width="310" height="89" alt="image" src="https://github.com/user-attachments/assets/616106fd-bb81-4a9c-8dff-df2660baea31" />
 
 ---
 
@@ -67,8 +73,12 @@ Created **Fast Track** segment:
 
 **Final Model Performance:**
 - Recall: ~63%  
-- Balanced precision  
+- Balanced precision
 
+**If we fine tune the threshold, we can get the following results:**
+- Conservative (minimize missed talent): threshold = 0.35 → recall ~0.88
+- Balanced  (manageable review list): threshold = 0.50 → recall ~0.80
+- Precision mode (only flag high-confidence): threshold = 0.68 → recall ~0.63
 ---
 
 ### 6. Probability-Based Ranking
@@ -131,7 +141,5 @@ Created **Fast Track** segment:
 ## 📌 Future Improvements  
 
 - Use advanced models like Random Forest / XGBoost  
-- Add more behavioral and performance features  
-- Deploy as a web-based decision support tool  
-
+- Add more behavioral and performance features
 ---
