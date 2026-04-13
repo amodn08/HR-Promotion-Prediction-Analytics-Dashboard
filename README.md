@@ -48,7 +48,8 @@ Created **Fast Track** segment:
 ---
 
 ### 3. Handling Class Imbalance
-- Used `class_weight='balanced'` in Logistic Regression  
+- Used `class_weight='balanced'` in Logistic Regression
+- Dataset has a 10.5x class imbalance — only 8.7% of employees were promoted
 - Focused on improving recall instead of accuracy
 - Confusion Matrix:
 
@@ -72,7 +73,7 @@ Created **Fast Track** segment:
 - Adjusted classification threshold to optimize recall  
 
 **Final Model Performance:**
-- Recall: ~63%  
+- Recall: ~80%  
 - Balanced precision
 
 **If we fine tune the threshold, we can get the following results:**
