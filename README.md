@@ -115,7 +115,10 @@ Created **Fast Track** segment:
 
 - `promo.ipynb` → Model building  
 - `hr_promotion_output` → Final dataset with probabilities  
-- Power BI dashboard  
+- Power BI dashboard :
+
+  <img width="487" height="277" alt="Dashboard" src="https://github.com/user-attachments/assets/e1c20885-2123-4e15-8057-1a15f1c39743" />
+
 
 ---
 
