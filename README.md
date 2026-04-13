@@ -114,7 +114,7 @@ Created **Fast Track** segment:
 ## 🔷 Project Files  
 
 - `promo.ipynb` → Model building  
-- `final_output.csv` → Final dataset with probabilities  
+- `hr_promotion_output` → Final dataset with probabilities  
 - Power BI dashboard  
 
 ---
